@@ -23,7 +23,7 @@ public class ThrowDart : MonoBehaviour
     public float throwforce = 0.3f;
     void Start()
     {
-        
+        dragDistance = Screen.height * 15 / 100; //dragDistance is 15% height of the screen
     }
 
     // Update is called once per frame
